@@ -28,8 +28,8 @@ SECRET_KEY =\
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-CSRF_TRUSTED_ORIGINS = []
+ALLOWED_HOSTS = ['localhost','https://laughing-lamp-q7v64497r9grf9x4-8000.app.github.dev']
+CSRF_TRUSTED_ORIGINS = ['https://laughing-lamp-q7v64497r9grf9x4-8000.app.github.dev']
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
